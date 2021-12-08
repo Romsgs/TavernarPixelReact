@@ -10,7 +10,7 @@ export const Header = styled.div`
     box-sizing: border-box;
 }
 header{
-    padding: 20px 0 10px 0;
+    padding: 0px 0 10px 0;
     width: 100%;
     display:flex;
     flex-direction: column;

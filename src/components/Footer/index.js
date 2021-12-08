@@ -1,17 +1,21 @@
 import React from 'react'
 import * as F from './styledFooter'
-export const index = () => {
+import placa1 from '../images/placa1.png'
+import chao from '../images/chao.png'
+export const Footer = () => {
     return (
         <F.Footer>
-        <footer>
-        
+        <footer >
+            <div id='footerContainer'>
+        <img id="tavernaFooter" src={placa1} alt="l"/>
         <p>
-            Taverna © 2012 - 2021
-        </p>
-        <p>
+            Taverna © 2012 - 2021<br/>
             Todos os direitos reservados
         </p>
-        <img id="tavernaFooter" src="../images/Logo8bitGrandeTRANSPARENTEt.png" alt="l"/>
+        <p>
+            
+        </p>
+        
         <div id="icones">
             <a href="https://www.facebook.com/bandataverna" target="_blank" rel="noreferrer"><img class="footerIcon" src="../images/icons/facebook.png" alt=""/></a>
             <a href="https://www.instagram.com/bandataverna/" target="_blank" rel="noreferrer"><img class="footerIcon" src="../images/icons/instagram.png" alt=""/></a>
@@ -20,7 +24,7 @@ export const index = () => {
             
             
         </div>
-        
+        </div>
     </footer>
     </F.Footer>
     )

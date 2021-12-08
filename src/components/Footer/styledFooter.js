@@ -1,15 +1,20 @@
 import styled from 'styled-components'
-
+import ImgSrc from '../images/chao.png'
 export const Footer = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 footer{
+    font-family: 'Press Start 2P', cursive;
     color: black;
     width: 100%;
-    background-color: navajowhite;
+    max-height: 256px;
+    background-color: lightblue;
+    background-image: url(${ImgSrc});
+    // background-size: cover;
+    background-repeat:repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 50px 0 0 0;
+    
 }
 .footerIcon{
     width: 50px;
@@ -17,12 +22,18 @@ footer{
 }
 #icones{
     display: flex;
-    margin-top: 20px;
+    justify-content: space-evenly;
 }
 #tavernaFooter{
-    width: 50%;
+    // position: relative;
+    // top: -70px;
+    width: 400px;
     max-width: 500px;
     align-self: center;
-    margin-top:30px;
+    
+}
+#footerContainer{
+    position: relative;
+    top: -160px;
 }
 `

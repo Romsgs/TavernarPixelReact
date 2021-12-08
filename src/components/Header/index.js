@@ -8,7 +8,7 @@ export const Header = () => {
         <S.Header>
             
         <header>
-        <img src='../images/PlacaLogoGRANDEo.png' alt="asd"/><br/>
+        <Link to='/'><img src='../images/PlacaLogoGRANDEo.png' alt="asd"/></Link><br/>
         <div class='menuColapsavel'>
 
             <input type="checkbox" name="menu" id="menu"/>
@@ -18,10 +18,10 @@ export const Header = () => {
 
                 <ul>
                     <li><Link to='/'>HOME</Link></li>
-                    <li><a href="">Press Kit</a></li>
-                    <li><a href="">Media</a></li>
+                    <li><a href="/">Press Kit</a></li>
+                    <li><a href="/">Media</a></li>
                     <li><a href="/abanda">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="/">Contato</a></li>
                 </ul>
 
             </div>
